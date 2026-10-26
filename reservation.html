@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#100d0f">
+  <meta name="description" content="Réservez une table VIP au Vino VIP à Abidjan.">
+  <title>Réservation VIP | Le Vino VIP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css"><script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.png">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><img class="brand-logo" src="assets/images/logo-vino-lounge.png" alt="Logo Vino Lounge" loading="eager"></a><button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><i data-lucide="menu"></i></button><nav class="main-nav"><a href="index.html">Accueil</a><a href="ambiance.html">L'ambiance</a><a class="nav-cta active-cta" href="reservation.html">Réserver une table <i data-lucide="arrow-up-right"></i></a></nav></header>
+<main>
+<section class="reservation-heading"><p class="eyebrow"><span></span> RÉSERVATION VIP</p><h1>Votre soirée.<br><em>Votre espace.</em></h1><p>Remplissez le formulaire pour préparer votre demande de réservation. Vous pourrez ensuite l'envoyer par WhatsApp.</p></section>
+<section class="reservation-layout">
+  <div class="reservation-aside"><div class="aside-label">LE VINO VIP · ABIDJAN</div><h2>Faites de votre sortie un moment spécial.</h2><p>Pour un anniversaire, une soirée entre amis ou une occasion particulière, envoyez-nous les détails de votre demande.</p><div class="aside-detail"><i data-lucide="map-pin"></i><span>Yopougon, Abidjan, Côte d'Ivoire<br><small>Adresse communiquée : 00225, Abidjan</small></span></div><div class="aside-detail"><i data-lucide="messages-square"></i><span>Confirmation de la réservation<br><small>La disponibilité doit être confirmée par l'établissement.</small></span></div></div>
+  <form class="reservation-form" id="reservation-form">
+    <div class="form-heading"><span>01 — VOTRE DEMANDE</span><h2>Réserver une table</h2></div>
+    <div class="company-contact">
+      <span class="contact-label">COORDONNÉES DE L'ÉTABLISSEMENT</span>
+      <p><i data-lucide="phone"></i> <a href="tel:+2250799606547">07 99 60 65 47</a></p>
+      <p><i data-lucide="map-pin"></i> Yopougon, Abidjan, Côte d'Ivoire</p>
+      <p><i data-lucide="instagram"></i> <a href="https://www.instagram.com/le_vino_vip/" target="_blank" rel="noopener noreferrer">@le_vino_vip</a></p>
+    </div>
+    <div class="field-row"><label>Nom complet<input name="nom" type="text" autocomplete="name" placeholder="Votre nom" required></label><label>Téléphone<input name="telephone" type="tel" autocomplete="tel" placeholder="Votre numéro" required></label></div>
+    <div class="field-row"><label>Date souhaitée<input name="date" id="date-reservation" type="date" required></label><label>Heure souhaitée<input name="heure" type="time" value="21:00" required></label></div>
+    <div class="field-row"><label>Votre compte Instagram <span class="optional">(facultatif)</span><input name="instagram" type="text" placeholder="@votre_compte"></label><label> </label></div>
+    <div class="field-row"><label>Nombre de personnes<select name="personnes" required><option value="">Choisir</option><option>1 à 2 personnes</option><option>3 à 4 personnes</option><option>5 à 6 personnes</option><option>7 à 10 personnes</option><option>Plus de 10 personnes</option></select></label><label>Type de réservation<select name="type" required><option value="">Choisir</option><option>Table classique</option><option>Table VIP</option><option>Anniversaire</option><option>Événement privé</option></select></label></div>
+    <label>Précisions <span class="optional">(facultatif)</span><textarea name="details" rows="4" placeholder="Anniversaire, préférence, demande particulière..."></textarea></label>
+    <button class="button button-red submit-button" type="submit">Envoyer la demande sur WhatsApp <i data-lucide="arrow-up-right"></i></button>
+    <p class="form-note"><i data-lucide="shield-check"></i> Votre demande ne confirme pas automatiquement une réservation. Attendez la confirmation de l'établissement.</p>
+    <p class="form-feedback" id="form-feedback" role="status"></p>
+  </form>
+</section>
+</main>
+<footer class="site-footer"><a class="brand" href="index.html"><img class="brand-logo" src="assets/images/logo-vino-lounge.png" alt="Logo Vino Lounge" loading="eager"></a><p>Le goût des nuits mémorables.</p><a class="footer-instagram" href="https://www.instagram.com/le_vino_vip/" target="_blank" rel="noopener noreferrer"><i data-lucide="instagram"></i> @le_vino_vip</a><span class="footer-copy">© <span class="year"></span> Le Vino VIP. Tous droits réservés.</span></footer><script src="assets/js/main.js"></script>
+</body></html>
