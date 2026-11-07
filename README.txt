@@ -9,8 +9,8 @@ FICHIERS
 
 AVANT LA MISE EN LIGNE
 1. Ouvrez assets/js/main.js.
-2. Le numéro WhatsApp est prérempli avec 2250799606547, d'après le numéro communiqué (07 99 60 6547). Vérifiez qu'il s'agit bien d'un compte WhatsApp actif avant la mise en ligne.
-3. Remplacez le logo typographique provisoire « V. / LE VINO VIP » par le logo officiel fourni par le propriétaire, si nécessaire.
+2. Le numéro WhatsApp est configuré avec 225747128226, d'après le numéro communiqué (07 47 12 82 26). Vérifiez qu'il s'agit bien d'un compte WhatsApp actif avant la mise en ligne.
+3. Le logo officiel fourni est utilisé dans l'en-tête, le pied de page et le bouton WhatsApp flottant.
 4. Vérifiez les textes, photos, adresse exacte et horaires avec le propriétaire.
 5. Testez le site sur téléphone et ordinateur.
 
@@ -30,4 +30,4 @@ MISE À JOUR INSTAGRAM ET COORDONNÉES
 - Profil Instagram officiel indiqué : https://www.instagram.com/le_vino_vip/
 - Le lien @le_vino_vip est visible dans le pied de page et dans les coordonnées sur la page de réservation.
 - Le formulaire de réservation contient désormais un champ facultatif pour le compte Instagram du client. Ce compte est ajouté au message WhatsApp envoyé au bar.
-- Coordonnées affichées : 07 99 60 65 47 ; Yopougon, Abidjan, Côte d'Ivoire.
+- Coordonnées affichées : 07 47 12 82 26 ; Yopougon, Abidjan, Côte d'Ivoire.

@@ -1,7 +1,7 @@
 // Le Vino VIP — navigation et formulaire de réservation
 // IMPORTANT : remplacez le numéro ci-dessous par le numéro WhatsApp du bar,
 // au format international sans +, espace ni tiret (ex. 2250700000000).
-const WHATSAPP_NUMBER = "2250799606547";
+const WHATSAPP_NUMBER = "225747128226";
 
 document.addEventListener("DOMContentLoaded", () => {
   if (window.lucide) window.lucide.createIcons();
